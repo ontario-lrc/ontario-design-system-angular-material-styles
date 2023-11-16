@@ -1,0 +1,55 @@
+@use 'sass:color';
+@use '@ontario-lrc/ontario-design-system-global-styles/dist/styles/scss/1-variables/spacing.variables' as spacing;
+@use '@ontario-lrc/ontario-design-system-global-styles/dist/styles/scss/1-variables/colours.variables' as colours;
+@use '@ontario-lrc/ontario-design-system-global-styles/dist/styles/scss/1-variables/breakpoints.variables' as breakpoints;
+@use '@ontario-lrc/ontario-design-system-global-styles/dist/styles/scss/1-variables/global.variables' as globalVariables;
+@use '@ontario-lrc/ontario-design-system-global-styles/dist/styles/scss/1-variables/typography.variables' as typography;
+@use '@ontario-lrc/ontario-design-system-global-styles/dist/styles/scss/2-tools/functions/global.functions' as globalFunctions;
+@use '@ontario-lrc/ontario-design-system-global-styles/dist/styles/scss/1-variables/font-weights.variables' as fontWeights;
+
+$ontario-table-caption-background: #0000001a;
+$ontario-table-total: #0077a056;
+$ontario-table-subtotal: #007b9e1d;
+$ontario-table-highlight: #e191003c;
+$ontario-table-row-divider: #0000004d;
+$ontario-table-zebra-striping: #0000000d;
+$ontario-table-shadow--cover: rgba(255, 255, 255, 0);
+$ontario-table-shadow--black: rgba(0, 0, 0, 0.2);
+$ontario-table-shadow--clear: rgba(252, 0, 0, 0);
+$ontario-table-scroller--height: 20px;
+
+$ontario-remcalc-8px: globalFunctions.rem-calc(8);
+$ontario-remcalc-12px: globalFunctions.rem-calc(12);
+$ontario-remcalc-14px: globalFunctions.rem-calc(14);
+$ontario-remcalc-16px: globalFunctions.rem-calc(16);
+$ontario-remcalc-17px: globalFunctions.rem-calc(17);
+$ontario-remcalc-18px: globalFunctions.rem-calc(18);
+$ontario-remcalc-19px: globalFunctions.rem-calc(19);
+$ontario-remcalc-20px: globalFunctions.rem-calc(20);
+$ontario-remcalc-23px: globalFunctions.rem-calc(23);
+$ontario-remcalc-24px: globalFunctions.rem-calc(24);
+$ontario-remcalc-28px: globalFunctions.rem-calc(28);
+$ontario-remcalc-24-5px: globalFunctions.rem-calc(24.5);
+$ontario-remcalc-40px: globalFunctions.rem-calc(40);
+
+.mat-mdc-table
+{
+	caption
+	{
+		background-color: $ontario-table-caption-background;
+		padding: $ontario-remcalc-18px $ontario-remcalc-16px $ontario-remcalc-18px $ontario-remcalc-24px;
+		text-align: left;
+		font-weight: bold;
+		font-size: globalFunctions.rem-calc(22);
+		line-height: globalFunctions.rem-calc(35);
+
+		display: table-caption;
+
+		@media screen and (max-width: breakpoints.$small-breakpoint)
+		{
+			font-size: $ontario-remcalc-20px;
+			line-height: globalFunctions.rem-calc(30);
+			padding-left: $ontario-remcalc-16px;
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"name": "@ontario-lrc/ontario-design-system-angular-material-styles",
+	"version": "1.0.0-beta.0",
+	"private": false,
+	"description": "",
+	"liscense": "Apache-2.0",
+	"files":[
+		"dist/",
+		"package.json",
+		"README.md"
+	],
+	"dependencies": {
+		"@ontario-lrc/ontario-design-system-global-styles": "^2.5.2"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"authors":[
+		{
+			"name": "Dawid Kasperowicz",
+			"email": "dawid.kasperowicz@ontario.ca"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ontario-lrc/ontario-design-system-angular-material-styles.git"
+	},
+	"bugs":{
+		"url": "https://github.com/ontario-lrc/ontario-design-system-angular-material-styles/issues"
+	},
+	"homepage": "https://github.com/ontario-lrc/ontario-design-system-angular-material-styles#readme"
+}
