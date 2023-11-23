@@ -1,9 +1,9 @@
 {
 	"name": "@ontario-lrc/ontario-design-system-angular-material-styles",
-	"version": "1.0.0-beta.1",
+	"version": "1.0.0-beta.2",
 	"private": false,
-	"description": "",
-	"liscense": "Apache-2.0",
+	"description": "A collection of SCSS files that will re-style Angular Material components to either match exactly, or mimic as closely as possible, the ODS look. The goal is to provide developers with a centralized location for SCSS ODS styles for Angular Material components to share, collaborate, and leverage reusable code, promoting code reusability and reducing development time and effort.",
+	"license": "Apache-2.0",
 	"files":[
 		"dist/",
 		"package.json",
